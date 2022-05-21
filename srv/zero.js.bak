@@ -547,7 +547,7 @@ switch (command) {
 case 'botinfo':
 timestamp = speed();
 latensi = speed() - timestamp
-teks18 =
+teks =
 `┏━➤ *INFO BOT* 
 *┃┃* Creator-Bot : Hunoter
 *┃┃* Name des OWNERs : ${NameOwner}
@@ -564,7 +564,7 @@ teks18 =
 { buttonId: `script`, buttonText: { displayText: '📌 SCRIPT' }, type: 1 },
 { buttonId: `owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 }
 ]
-sendButLocation(from, teks18, faketeks, fakeimg, but)
+sendButLocation(from, teks, faketeks, fakeimg, but)
 break
 case 'myinfo': case 'help':
 addBalance(sender, randomNomor(20), balance)
